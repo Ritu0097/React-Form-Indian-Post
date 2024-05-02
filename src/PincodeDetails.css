@@ -1,0 +1,24 @@
+.pincode-details-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 50px;
+  }
+  
+  .pincode-detail {
+    width: 48%;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 16px;
+    margin-bottom: 16px;
+  }
+  
+  .pincode-detail h3 {
+    margin-top: 0;
+  }
+  
+  @media (max-width: 768px) {
+    .pincode-detail {
+      width: 100%;
+    }
+  }
